@@ -485,7 +485,7 @@ header #fh5co-main-nav > ul li:first-child {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
 }
 .fh5co-hero .overlay, .fh5co-parallax .overlay {
   position: absolute;
@@ -811,6 +811,13 @@ header #fh5co-main-nav > ul li:first-child {
   color: white;
 }
 
+@media screen and (min-width: 768px){
+  #temp{
+    display: block;
+    left: 12em;
+  }
+}
+
 .contact-info {
   margin-bottom: 4em;
   padding: 0;
@@ -888,6 +895,12 @@ input[type="text"] {
 }
 #footer p.fh5co-social-icons i {
   font-size: 32px;
+}
+@media screen and (min-width: 768px) {
+  #mid{
+    display: block;
+    left: 20em;
+  }
 }
 
 .js .animate-box {
