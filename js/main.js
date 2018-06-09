@@ -54,6 +54,8 @@
 		   nav: true,
 		   dots: true,
 		   smartSpeed: 500,
+		   autoplay: true,
+		   autoplayTmiout:7000,
 		   navText: [
 		      "<i class='icon-chevron-left owl-direction'></i>",
 		      "<i class='icon-chevron-right owl-direction'></i>"
@@ -139,4 +141,6 @@
 	});
 
 
+
 }());
+
