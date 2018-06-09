@@ -531,7 +531,7 @@ header #fh5co-main-nav > ul li:first-child {
 
 .fh5co-table-cell {
   display: table-cell;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
 }
 
 .services-grid {
@@ -897,9 +897,17 @@ input[type="text"] {
   font-size: 32px;
 }
 @media screen and (min-width: 768px) {
+  body{
+    margin-left: 3em;
+    margin-right:3em;
+  }
   #mid{
     display: block;
     left: 20em;
+  }
+  #slide{
+    height: 8em;
+    width: auto;
   }
 }
 
