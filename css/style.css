@@ -477,7 +477,7 @@ header #fh5co-main-nav > ul li:first-child {
 .fh5co-table-cell,
 .fh5co-hero,
 .fh5co-parallax {
-  height: 500px;
+  /*height: 500px;*/
 }
 
 .fh5co-hero, .fh5co-parallax {
@@ -909,6 +909,10 @@ input[type="text"] {
     height: 8em;
     width: auto;
   }
+  .fh5co-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 4em;
 }
 
 .js .animate-box {

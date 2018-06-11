@@ -35,7 +35,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/ico" href="images/x-image.ico">
-
+	<link rel="stylesheet" href="css/navbar.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -46,19 +46,32 @@
 
 	</head>
 	<body>
-	<header>
+		<header>
 		<div class="container text-center">
-			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo" href="index.html"><img src="images/logo" id="logo"></a>
-			</div>
-			
-			<nav id="fh5co-main-nav" role="navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="pestLibrary.html">Pest Library</a></li>
-					<li><a href="services.html" class="active">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="hello">
+						<div class="col-md-12">
+							<div class="navbar-header" style="height: 5em;">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" style="height: 2em; margin-top: 1.5em;">
+						        	<span class="sr-only">Toggle navigation</span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+				      			</button>
+								<a href="index.html"> <picture id="empire-logo"></picture></a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-nav-demo">
+								<ul class="nav navbar-nav navbar-right" style="margin-top: 1em;">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="pestLibrary.html">Pest Library</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</nav>
 		</div>
 	</header>

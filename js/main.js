@@ -67,6 +67,8 @@
 		    margin:10,
 		    nav:true,
 		    dots: true,
+		    smartSpeed: 500,
+		   	autoplay: true,
 		    responsive:{
 		        0:{
 		            items:1
