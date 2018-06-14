@@ -118,14 +118,14 @@ h2, h3, h4, h5, h6 {
   background: #F03861;
 }
 
-header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
+#fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
 #fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,
 #fh5co-work-section {
   padding-bottom: 3em;
 }
 
 header {
-  padding-top: 3em;
+  padding-top: 2em;
 }
 header .fh5co-navbar-brand {
   padding-bottom: 3em;
@@ -902,8 +902,8 @@ input[type="text"] {
 }
 @media screen and (min-width: 768px) {
   body{
-    margin-left: 3em;
-    margin-right:3em;
+    margin-left: 0em;
+    margin-right: 0em;
   }
   #mid{
     display: block;
