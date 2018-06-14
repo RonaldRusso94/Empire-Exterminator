@@ -37,13 +37,67 @@
 	<link rel="icon" type="image/ico" href="images/x-image.ico">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/navbar.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style type="text/css">
+		body, html{
+			height:100%;
+			margin:0;
+			line-height: 1.8em;
+			font-family:  'Bree Serif', serif;
+		}
+		.pimg, .pimg2, .pimg3{
+			position: relative;
+			opacity: 0.9;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat; 
+			background-attachment: fixed;
+		}
+		.pimg{
+			background-image: url(images/raton.jpeg);
+			min-height: 500px;
+			width:83.33%;
+			margin:auto;
 
+		}	
+		.ptext{
+			position:absolute;
+			top:50%;
+			width: 100%;
+			text-align: center;
+			color: #000;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+
+		}
+
+		.ptext .border1 h1{
+			/*font-size: 27px;*/
+			font-weight:700;
+			;
+		}
+		.ptext .border1 p{
+			/*background-color: #111;*/
+			color:#f6f6f6;
+			font-size: 16px;
+			letter-spacing: 0px;
+			/*padding:20px;*/
+			/*display: inline;*/
+
+		}
+		.ptext .border1.trans{
+			background-color: transparent;
+		}
+		#empire-logo {
+  			/*height: 75px;*/
+  		}
+	</style>
 	</head>
 	<body>
 	<header>
@@ -75,19 +129,15 @@
 			</nav>
 		</div>
 	</header>
-	<div class="fh5co-parallax" style="background-image: url(images/hero-1.jpg); height: 14em;" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div>
-				<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
-					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Contact Us</h1>
-						<p>Contact us via email or phone and get a free estimate</p>
-					</div>
-				</div>
+	<div class="pimg">
+		<div class="ptext">
+			<div class="border1">
+				<h1>Contact</h1>
+				<p>Contact us via email or phone and get a free estimate</p>
 			</div>
 		</div>
-	</div><!-- end: fh5co-parallax -->
+	</div>
+	<!-- end: fh5co-parallax -->
 	<div id="fh5co-contact-section">
 		<div class="container">
 			<div class="row">

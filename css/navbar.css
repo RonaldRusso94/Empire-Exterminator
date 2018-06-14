@@ -50,15 +50,14 @@ body{
   /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
-      #empire-showcase #empire-slogan h1{
-        /*font-size: 26px;*/
-      }
-
-
-      .navbar-header,
-#bs-nav-demo {
-  display: inline-block;
-  vertical-align: middle;
-}
-
+  #empire-showcase #empire-slogan h1{
+    /*font-size: 26px;*/
   }
+
+
+  .navbar-header, #bs-nav-demo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
