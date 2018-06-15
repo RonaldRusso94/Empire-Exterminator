@@ -47,7 +47,66 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style type="text/css">
+		body, html{
+			height:100%;
+			margin:0;
+			line-height: 1.8em;
+		}
+		.pimg, .pimg2, .pimg3{
+			position: relative;
+			opacity: 0.9;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat; 
+			background-attachment: fixed;
+		}
+		.pimg{
+			background-image: url(images/featured-2.jpg);
+			min-height: 650px;
+			width:100%;
+			margin:auto;
 
+		}	
+		.ptext{
+			position:absolute;
+			top:50%;
+			width: 100%;
+			text-align: center;
+			color: #000;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+
+		}
+		#fh5co-featured-work-section{
+			margin-top: 3em;
+		}
+		.ptext .border1 h1{
+			/*font-size: 27px;*/
+			font-weight:700;
+			;
+		}
+		.ptext .border1 p{
+			/*background-color: #111;*/
+			color:#f6f6f6;
+			font-size: 16px;
+			letter-spacing: 0px;
+			/*padding:20px;*/
+			/*display: inline;*/
+
+		}
+		.ptext .border1.trans{
+			background-color: transparent;
+		}
+		#empire-logo {
+  			/*height: 75px;*/
+  		}
+  		@media screen and (max-width: 768px) {
+			.pimg {
+				background-attachment: scroll;
+			}
+		}
+	</style>
 	</head>
 	<body>
 		<header>
@@ -80,9 +139,13 @@
 		</div>
 	</header>
 	
-	<div id="slideshow" class="owl-carousel owl-carousel1 owl-carousel-fullwidth animate-box" data-animate-effect="fadeIn">
-		<div class="item"><img src="images/featured-1.jpg" alt="image" style="opacity: 0.9;"></div>
-		<div class="item"><img src="images/featured-2.jpg" alt="image"></div>
+	<div class="pimg">
+		<div class="ptext">
+			<div class="border1">
+				<h1></h1>
+				<p></p>
+			</div>
+		</div>
 	</div>
 
 	<div id="fh5co-featured-work-section">
