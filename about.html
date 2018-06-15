@@ -43,23 +43,122 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+		<style type="text/css">
+		body, html{
+			height:100%;
+			margin:0;
+			line-height: 1.8em;
+		}
+		.pimg, .pimg2, .pimg3{
+			position: relative;
+			opacity: 0.9;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat; 
+			background-attachment: fixed;
+		}
+		.pimg{
+			background-image: url(images/featured-2.jpg);
+			min-height: 650px;
+			width:100%;
+			margin:auto;
 
+		}	
+		.ptext{
+			position:absolute;
+			top:50%;
+			width: 100%;
+			text-align: center;
+			color: #000;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+
+		}
+		#fh5co-featured-work-section{
+			margin-top: 3em;
+		}
+		.ptext .border1 h1{
+			/*font-size: 27px;*/
+			font-weight:700;
+			;
+		}
+		.ptext .border1 p{
+			/*background-color: #111;*/
+			color:#f6f6f6;
+			font-size: 16px;
+			letter-spacing: 0px;
+			/*padding:20px;*/
+			/*display: inline;*/
+
+		}
+		.ptext .border1.trans{
+			background-color: transparent;
+		}
+		#empire-logo {
+  			/*height: 75px;*/
+  		}
+  		@media screen and (max-width: 768px) {
+			.pimg {
+				background-attachment: scroll;
+			}
+		}
+		#social{
+			display: inline-flex;
+		    position: absolute;
+		    /* float: left; */
+		    /* margin-left: 1em; */
+		    color: floralwhite;
+		    /* margin-right: -3em; */
+		    margin-left: 13em;
+		}
+		#margin-social{
+			/*margin-top: 1.5em;*/
+    		margin-right: 1em;
+		}
+		#margin-social2{
+			/*margin-top: 1.5em;*/
+			margin-right: 1em;
+		}
+		</style>
 	</head>
 	<body>
 	<header>
 		<div class="container text-center">
-			<div class="fh5co-navbar-brand">
-				<a class="fh5co-logo" href="index.html"><img src="images/logo" id="logo"></a>
-			</div>
-			
-			<nav id="fh5co-main-nav" role="navigation">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="pestLibrary.html">Pest Library</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html" class="active">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+					<div class="hello">
+						<div class="col-md-12">
+							<div class="navbar-header" style="height: 5em;">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" style="height: 2em; margin-top: 1.5em;">
+						        	<span class="sr-only">Toggle navigation</span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+						        	<span class="icon-bar"></span>
+				      			</button>
+								<a href="index.html"> <picture id="empire-logo"></picture></a>
+							</div>
+							<div class="collapse navbar-collapse" id="bs-nav-demo">
+								<div id="social">
+									<div id="margin-social">
+	                                    <i class="fab fa-facebook-square"></i>
+	                                </div>
+	                                <div id="margin-social2">
+	                                    <i class="fab fa-instagram"></i>
+	                                </div>
+	                                <div id="margin-social3">
+	                                    <i class="icon-phone2"></i> +1 (718) 473-6937</li>
+	                                </div>
+                                </div>
+								<ul class="nav navbar-nav navbar-right" style="margin-top: 1em;">
+									<li><a href="index.html">Home</a></li>
+									<li><a href="pestLibrary.html">Pest Library</a></li>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</nav>
 		</div>
 	</header>
