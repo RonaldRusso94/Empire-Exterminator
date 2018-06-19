@@ -100,9 +100,15 @@
 		#empire-logo {
   			/*height: 75px;*/
   		}
+  		#social_media{
+				display: none;
+			}
   		@media screen and (max-width: 768px) {
 			.pimg {
 				background-attachment: scroll;
+			}
+			#social_media{
+				display: block;
 			}
 		}
 		#social{
@@ -143,13 +149,13 @@
 							<div class="collapse navbar-collapse" id="bs-nav-demo">
 								<div id="social">
 									<div id="margin-social">
-	                                    <i class="fab fa-facebook-square"></i>
+	                                    <a href="https://www.facebook.com/EmpireExterminators/"><i class="fab fa-facebook-square" style="color: white"></i></a>
 	                                </div>
 	                                <div id="margin-social2">
 	                                    <i class="fab fa-instagram"></i>
 	                                </div>
 	                                <div id="margin-social3">
-	                                    <i class="icon-phone2"></i> +1 (919) 939-9300</li>
+	                                    <i class="icon-phone2"></i> +1 (917) 939-9300</li>
 	                                </div>
                                 </div>
 								<ul class="nav navbar-nav navbar-right" style="margin-top: 1em;">
@@ -282,19 +288,34 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 					<div class="fh5co-intro fh5co-table-cell">
-						<h1 class="text-center">Get our Contact</h1>
-						<p><a href="contact.html">CALL EMPIRE EXTERMINATORS TODAY!</a></p>
+						<h1 class="text-center">CONTACT US:</h1>
+						<p> +1 (917) 939-9300</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<footer>
+	<footer style="height: 11em;">
 		<div id="footer" class="fh5co-border-line">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
-						<p>Copyright 2016 Free Html5<br> <a href="https://www.linkedin.com/in/bernardogomezc/">Bernardo Gomez C</a>. & <a href="#">Ronald Russo</a>.<br> All Rights Reserved. </p>
+
+						<div id="cards" style="width: 100%; bottom: 4em; position: relative;">
+							<img src="images/creditcards.png" style="width: 100%;">
+						</div>
+						<div id="social_media" style="position: relative; bottom: 4em;">
+							<div id="margin-social" style="display: inline-block;">
+	                                <a href="https://www.facebook.com/EmpireExterminators/"><i class="fab fa-facebook-square fa-2x" style="color: black"></i></a>
+	                            </div>
+	                            <div id="margin-social2" style="display: inline-block;">
+	                                <i class="fab fa-instagram fa-2x"></i>
+	                            </div>
+	                            <div id="margin-social3">
+	                                <i class="icon-phone2"></i> +1 (917) 939-9300</li>
+	                        </div>
+						</div>
+						<!--<p>Copyright 2016 Free Html5<br> <a href="https://www.linkedin.com/in/bernardogomezc/">Bernardo Gomez C</a>. & <a href="#">Ronald Russo</a>.<br> All Rights Reserved. </p> -->
 					</div>
 				</div>
 			</div>
